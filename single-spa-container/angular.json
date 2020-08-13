@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/systemjs/dist/system.min.js",
               "node_modules/systemjs/dist/extras/amd.min.js",
               "node_modules/systemjs/dist/extras/named-exports.min.js",
@@ -132,6 +136,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "single-spa-container"
 }

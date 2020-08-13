@@ -1,5 +1,8 @@
 {
   "imports": {
-    "form-app": "http://localhost:4201/main.js"
+    "@react-reports/reports-app": "http://localhost:8080/main.js",
+    "form-app": "http://localhost:4201/main.js",
+    "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js"
   }
 }
