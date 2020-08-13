@@ -14,13 +14,6 @@
     "typeRoots": [
       "node_modules/@types"
     ],
-    "paths": {
-      "@core/*": ["src/app/core/*"],
-      "@env/*": ["environments/*"],
-      "@module/*": ["src/app/modules/*"],
-      "@layout/*": ["src/app/layout/*"],
-      "@assets/*": ["assets/*"]
-    },
     "lib": [
       "es2018",
       "dom"
@@ -28,7 +21,6 @@
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true,
-    "preserveWhitespaces": false
+    "strictInjectionParameters": true
   }
 }
